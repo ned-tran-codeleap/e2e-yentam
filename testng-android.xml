@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Suite">
+    <parameter name="platform" value="android"/>
+    <test name="Login">
+        <classes>
+            <class name="tests.login.LoginTest"/>
+        </classes>
+    </test>
+</suite>
